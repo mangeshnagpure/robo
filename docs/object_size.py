@@ -12,7 +12,7 @@ import argparse
 import imutils
 import cv2
 
-def midpoint(wallA, wallB,wallC,wallD):
+def midpoint(ptA,ptB):
 	return ((ptA[0] + ptB[0]) * 0.5, (ptA[1] + ptB[1]) * 0.5)
 
 # construct the argument parse and parse the arguments
